@@ -3,18 +3,25 @@ body{
     color: #007C80 !important;
     background-image: url("../image/background.png");
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-
-.btn, .btn:active, .btn:visited {
+.btn a {
     color: #007C80 !important;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    color:white !important;
+    text-decoration: none;
+}
+.btn, .btn:active, .btn:visited {
     border-color: #007C80 !important;
     margin-left: auto;
     margin-right: auto;
 }
 
 .btn:hover {
-    color: white !important;
     background-color: #007C80 !important;
     text-decoration: overline;
 }
@@ -22,6 +29,7 @@ body{
 .button {
     display:flex;
     flex-flow: column;
+    margin-left: auto;
     margin-right: auto;
     width: 300px;
     margin-top: 50vh;
@@ -35,20 +43,100 @@ body{
     
 }
 
-.navbar-default{
-    border-bottom-color: #007C80 !important;
-    background-color: #33D1D6 !important;
+h4 span{
+    background-color: #007c80;
+    padding: 8px;
+    color: azure;
 }
 
-.navbar-default .navbar-brand {
-    color: #007c80 !important;
+.navbar{
+    background-color: #007c80;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
- color: #5E5E5E;
+.nav-item-active a{
+    color: #007c80;
+}
+
+.nav-link,.navbar-brand{
+    color: azure;
+}
+
+.navbar-brand:hover,.nav-link:hover{
+    color: #cfcfcf !important;
+}
+
+.nav-item{
+    margin-left: 4px;
+    margin-top: 4px;
+    
+}
+
+.navbar-toggler{
+    background-color: azure !important;
 }
 
 .nav-item-active{
-    background-color: antiquewhite !important;
+    padding-top: 3px;
+    text-align: center;
+    background-color: azure;
+    border-radius: 10px;
 }
+
+.nav-item:hover{
+    background-color: #32a9ad;
+    border-radius: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+.trait{
+    background-color: black;
+    margin-bottom: auto;
+    margin-top: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 1px;
+}
+
+.title{
+    display: flex;
+    flex-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+
+
+p{
+    color: #042021;
+    text-align: center;
+}
+
+
+
+.block1{
+    margin-top: 3%;
+    display: flex;
+    flex-flow:row;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.art1{
+    display: flex;
+    flex-flow: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.img-fluid{
+    max-width: 75%;
+}
+
