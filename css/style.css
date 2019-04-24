@@ -96,6 +96,26 @@ h5 span{
     padding-right: 3px;
 }
 
+footer{
+  color: white;
+}
+footer a{
+  color: #bfffff;
+}
+footer a:hover{
+    text-decoration: none;
+  color: white;
+}
+
+.footer-bottom{
+  background-color: azure;;
+  padding: 2em;
+}
+.footer-middle{
+   background: #007c80;
+  padding-top: 2em;
+  color: white;
+}
 
 .trait{
     background-color: black;
@@ -196,3 +216,5 @@ p{
     flex-flow: column;
     margin-right: 2%;
 }
+
+
