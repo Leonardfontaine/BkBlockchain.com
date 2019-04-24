@@ -9,6 +9,9 @@
     
     <link rel = "stylesheet" type = "text/css" href = "css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     
 </head>
@@ -70,7 +73,18 @@
                     <div class="colm">
                         <img class="profile" src="image/user.png" alt="user">
                         <br/>
-                        <a href="group.html" class="btn btn-outline-primary">More</a>
+                        
+                        <div class="social">
+                            <a href="https://linkedin.com/">
+                            <img src="image/linkedin.png" alt="linkedin" width="30" height="30">
+                            </a>
+                            <a href="https://twitter.com/">
+                            <img class="s1" src="image/twitter.png" alt="twitter" width="30" height="30">
+                            </a>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#modal1">
+                            <a> More </a>
+                        </button>
                     </div>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
                   </div>
@@ -79,6 +93,47 @@
             </div>
           </div>
         </div>
+          
+          
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalLabel"><strong>Name</strong></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+                 <div class="modal-body">
+                     <div class="cv">
+                        <img class="profileBig" src="image/user.png" alt="user">
+                         <div class="colm">
+                            <center>
+                             <h4> <strong> Studies </strong> </h4>
+                            </center>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                            <center>
+                             <h4> <strong> Role in the project </strong> </h4>
+                            </center>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                             <center>
+                             <h4> <strong>Social links</strong> </h4>
+                                 <li><a href="#">Twitter</a><img class="s1" src="image/twitter.png" alt="twitter" width="25" height="25"></li>
+                                <li><a href="#">Linkedin</a><img class="s1" src="image/linkedin.png" alt="linkedin" width="25" height="25"></li>
+                            </center>
+                         </div>
+                     </div>
+                </div> 
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal"><a>Close</a></button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+          
+
+          
           <div class="col-md-4">
           <div class="card mb-5 shadow-sm  cardd">
             <div class="card-body">
@@ -89,6 +144,15 @@
                     <div class="colm">
                         <img class="profile" src="image/user.png" alt="user">
                         <br/>
+                        
+                        <div class="social">
+                            <a href="https://linkedin.com/">
+                            <img src="image/linkedin.png" alt="linkedin" width="30" height="30">
+                            </a>
+                            <a href="https://twitter.com/">
+                            <img class="s1" src="image/twitter.png" alt="twitter" width="30" height="30">
+                            </a>
+                        </div>
                         <a href="group.html" class="btn btn-outline-primary">More</a>
                     </div>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -108,6 +172,15 @@
                     <div class="colm">
                         <img class="profile" src="image/user.png" alt="user">
                         <br/>
+                        
+                        <div class="social">
+                            <a href="https://linkedin.com/">
+                            <img src="image/linkedin.png" alt="linkedin" width="30" height="30">
+                            </a>
+                            <a href="https://twitter.com/">
+                            <img class="s1" src="image/twitter.png" alt="twitter" width="30" height="30">
+                            </a>
+                        </div>
                         <a href="group.html" class="btn btn-outline-primary">More</a>
                     </div>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -127,6 +200,44 @@
                     <div class="colm">
                         <img class="profile" src="image/user.png" alt="user">
                         <br/>
+                        
+                        <div class="social">
+                            <a href="https://linkedin.com/">
+                            <img src="image/linkedin.png" alt="linkedin" width="30" height="30">
+                            </a>
+                            <a href="https://twitter.com/">
+                            <img class="s1" src="image/twitter.png" alt="twitter" width="30" height="30">
+                            </a>
+                        </div>
+                        <a href="group.html" class="btn btn-outline-primary">More</a>
+                        
+                    </div>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                  </div>
+                    
+               </center>
+            </div>
+          </div>
+        </div> 
+          <div class="col-md-4">
+          <div class="card mb-5 shadow-sm  cardd">
+            <div class="card-body">
+              <center>
+              <h2> Name </h2>
+                  <br/>
+                  <div class="row justify-content-left block3">
+                    <div class="colm">
+                        <img class="profile" src="image/user.png" alt="user">
+                        <br/>
+                        
+                        <div class="social">
+                            <a href="https://linkedin.com/">
+                            <img src="image/linkedin.png" alt="linkedin" width="30" height="30">
+                            </a>
+                            <a href="https://twitter.com/">
+                            <img class="s1" src="image/twitter.png" alt="twitter" width="30" height="30">
+                            </a>
+                        </div>
                         <a href="group.html" class="btn btn-outline-primary">More</a>
                     </div>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -146,25 +257,15 @@
                     <div class="colm">
                         <img class="profile" src="image/user.png" alt="user">
                         <br/>
-                        <a href="group.html" class="btn btn-outline-primary">More</a>
-                    </div>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                  </div>
-                    
-               </center>
-            </div>
-          </div>
-        </div> 
-          <div class="col-md-4">
-          <div class="card mb-5 shadow-sm  cardd">
-            <div class="card-body">
-              <center>
-              <h2> Name </h2>
-                  <br/>
-                  <div class="row justify-content-left block3">
-                    <div class="colm">
-                        <img class="profile" src="image/user.png" alt="user">
-                        <br/>
+                        
+                        <div class="social">
+                            <a href="https://linkedin.com/">
+                            <img src="image/linkedin.png" alt="linkedin" width="30" height="30">
+                            </a>
+                            <a href="https://twitter.com/">
+                            <img class="s1" src="image/twitter.png" alt="twitter" width="30" height="30">
+                            </a>
+                        </div>
                         <a href="group.html" class="btn btn-outline-primary">More</a>
                     </div>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
@@ -183,7 +284,7 @@
   <div class="footer-middle">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 col-sm-6">
+      <div class="col-md-3 col-sm-6">
         <div class="footer-pad">
           <h4>Address</h4>
           <address>
@@ -194,9 +295,14 @@
             </address>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6">
+            <div class="footer-pad">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6776562923837!2d105.84127411422489!3d21.005554586011037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac76ccab6dd7%3A0x55e92a5b07a97d03!2sInstitut+polytechnique+de+Hano%C3%AF!5e0!3m2!1sfr!2s!4v1556089140590!5m2!1sfr!2s" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+      <div class="col-md-2 col-sm-6">
         <div class="footer-pad">
-          <h4>Other info</h4>
+          <h4>Contact</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
             <li><a href="#">info 2</a></li>
@@ -210,9 +316,11 @@
           <h4>Social link</h4>
           <ul class="list-unstyled">
             <li><a href="#"></a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Facebook</a><img class="s1" src="image/facebook.png" alt="facebook" width="25" height="25"></li>
+            <li><a href="#">Twitter</a><img class="s1" src="image/twitter.png" alt="twitter" width="25" height="25"></li>
+            <li><a href="#">Linkedin</a><img class="s1" src="image/linkedin.png" alt="linkedin" width="25" height="25"></li>
+            <li><a href="#">Medium</a><img class="s1" src="image/medium.png" alt="medium" width="25" height="25"></li>
+            
           </ul>
         </div>
       </div>

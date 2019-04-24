@@ -75,6 +75,7 @@ h5 span{
 .nav-item{
     margin-left: 4px;
     margin-top: 4px;
+    margin-right: 3px;
     
 }
 
@@ -83,7 +84,8 @@ h5 span{
 }
 
 .nav-item-active{
-    padding-top: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
     background-color: azure;
     border-radius: 10px;
@@ -92,8 +94,7 @@ h5 span{
 .nav-item:hover{
     background-color: #32a9ad;
     border-radius: 10px;
-    padding-left: 3px;
-    padding-right: 3px;
+
 }
 
 footer{
@@ -105,6 +106,9 @@ footer a{
 footer a:hover{
     text-decoration: none;
   color: white;
+}
+.footer-pad{
+    margin-bottom:30px;
 }
 
 .footer-bottom{
@@ -190,6 +194,11 @@ p{
     height: 125px;
 }
 
+.profileBig{
+    margin-right: 7%;
+    width: 200px;
+    height: 200px;
+}
 
 .choice{
     margin-top: 3%;
@@ -217,4 +226,27 @@ p{
     margin-right: 2%;
 }
 
+.social{
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.s1{
+    margin-left: 5px;
+}
+
+
+li{
+    margin-top: 5px;
+}
+
+.modal-title{
+    margin-left: auto;
+}
+
+.cv{
+    display: flex;
+    flex-flow: row;
+}
