@@ -6,6 +6,7 @@ body{
     background-attachment: fixed;
 }
 
+/* Css part for the outline buttons */
 .btn a {
     color: #007C80 !important;
     text-decoration: none;
@@ -25,6 +26,7 @@ body{
 .btn:hover {
     background-color: #007C80 !important;
     text-decoration: overline;
+    color: white !important;
 }
 
 .button {
@@ -38,24 +40,7 @@ body{
     
 }
 
-.centerText{
-    text-align: center;
-    margin-bottom: 10px;
-    
-}
-
-h4 span{
-    background-color: #007c80;
-    padding: 8px;
-    color: azure;
-}
-
-h5 span{
-    background-color: #007c80;
-    padding: 8px;
-    color: azure;
-}
-
+/* Css part for the navbar */
 .navbar{
     background-color: #007c80;
 }
@@ -97,6 +82,8 @@ h5 span{
 
 }
 
+
+/* Css part for the footer */
 footer{
   color: white;
 }
@@ -119,6 +106,24 @@ footer a:hover{
    background: #007c80;
   padding-top: 2em;
   color: white;
+}
+
+.centerText{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+h4 span{
+    background-color: #007c80;
+    padding: 8px;
+    color: azure;
+}
+
+h5 span{
+    background-color: #007c80;
+    padding: 8px;
+    color: azure;
 }
 
 .trait{
