@@ -71,7 +71,6 @@ body{
 .nav-item-active{
     margin-top: auto;
     margin-bottom: auto;
-    text-align: center;
 }
 
 .nav-item-active a{
