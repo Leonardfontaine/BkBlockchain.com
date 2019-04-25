@@ -233,6 +233,13 @@ p{
     margin-bottom: 10px;
     display: flex;
     margin-left: auto;
+    margin-right: auto;
+}
+
+.social2{
+    margin-bottom: 10px;
+    display: flex;
+    margin-right: auto;
 }
 
 .s1{
@@ -249,7 +256,9 @@ li{
 }
 
 .modal-footer{
-    margin-right: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
 }
 
 .cv{
