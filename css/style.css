@@ -265,3 +265,9 @@ li{
     display: flex;
     flex-flow: row;
 }
+
+.carousel-item > img{
+    margin-left: auto;
+    margin-right: auto;
+
+}
