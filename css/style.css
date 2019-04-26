@@ -64,8 +64,8 @@ body{
     
 }
 
-.navbar-toggler{
-    background-color: azure !important;
+.navbar .navbar-toggler-icon {
+  background-image: url("../image/dropdown.png");
 }
 
 .nav-item-active{
@@ -233,13 +233,9 @@ p{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    width: 40px;
 }
 
-.social2{
-    margin-bottom: 10px;
-    display: flex;
-    margin-right: auto;
-}
 
 .s1{
     margin-left: 5px;
@@ -254,11 +250,6 @@ li{
     margin-left: auto;
 }
 
-.modal-footer{
-    margin-right: auto;
-    margin-left: auto;
-    width: 250px;
-}
 
 .cv{
     display: flex;
@@ -268,5 +259,17 @@ li{
 .carousel-item > img{
     margin-left: auto;
     margin-right: auto;
+    width: 100px;
 
 }
+
+.carous{
+    display: flex;
+    flex-flow: row;
+}
+
+.card1{
+    margin: 15px;;
+}
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
