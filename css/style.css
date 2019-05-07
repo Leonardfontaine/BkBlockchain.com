@@ -187,7 +187,6 @@ p{
     margin-top: 2%;
     display: flex;
     flex-flow: column;
-    margin-bottom: 5%;
     
 }
 
@@ -225,7 +224,11 @@ p{
 .colm{
     display: flex;
     flex-flow: column;
-    margin-right: 2%;
+    border-radius: 1%;
+    padding: 3%;
+    margin: 2%;
+    background-color: white;
+    
 }
 
 .social{
