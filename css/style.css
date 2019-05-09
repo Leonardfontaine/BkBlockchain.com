@@ -292,3 +292,8 @@ li{
     justify-content: center;
 }
 
+.newsletter:not( .newsletter--active ) input[type='submit']
+{
+    display: none;
+}
+
